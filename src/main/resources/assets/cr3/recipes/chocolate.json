@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " X ",
+        "XXX",
+        " X "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:dye",
+            "data": 3
+        }
+    },
+    "result": {
+        "item": "cr3:chocolate",
+        "count": 2
+    }
+}
