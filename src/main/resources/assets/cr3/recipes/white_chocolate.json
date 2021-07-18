@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "cr3:chocolate"
+    },
+    "#": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "cr3:white_chocolate",
+    "count": 8
+  }
+}
