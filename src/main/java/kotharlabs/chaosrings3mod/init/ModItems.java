@@ -1,9 +1,9 @@
-package circlecly.chaosrings3mod.init;
+package kotharlabs.chaosrings3mod.init;
 
-import circlecly.chaosrings3mod.ChaosRings3Mod;
-import circlecly.chaosrings3mod.items.Chocolate;
-import circlecly.chaosrings3mod.items.GourmetChocolate;
-import circlecly.chaosrings3mod.items.WhiteChocolate;
+import kotharlabs.chaosrings3mod.items.Chocolate;
+import kotharlabs.chaosrings3mod.items.GourmetChocolate;
+import kotharlabs.chaosrings3mod.items.WhiteChocolate;
+import kotharlabs.chaosrings3mod.items.weapons.*;
 import net.minecraft.item.Item;
 import java.util.*;
 
@@ -12,7 +12,7 @@ import java.util.*;
  */
 public class ModItems {
 
-    public static Hashtable<String, Item> itemRefs = new Hashtable<String, Item>();
+    public static Hashtable<String, Item> itemRefs = new Hashtable<>();
 
     /**
      * Preferred way of adding a new Item to itemRefs.
@@ -33,6 +33,7 @@ public class ModItems {
         addToRefs(new Chocolate());
         addToRefs(new WhiteChocolate());
         addToRefs(new GourmetChocolate());
+        addToRefs(new ChainSword());
     }
 
 }

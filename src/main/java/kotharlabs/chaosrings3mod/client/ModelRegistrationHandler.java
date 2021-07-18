@@ -1,7 +1,7 @@
-package circlecly.chaosrings3mod.client;
+package kotharlabs.chaosrings3mod.client;
 
-import circlecly.chaosrings3mod.ChaosRings3Mod;
-import circlecly.chaosrings3mod.init.ModItems;
+import kotharlabs.chaosrings3mod.ChaosRings3Mod;
+import kotharlabs.chaosrings3mod.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

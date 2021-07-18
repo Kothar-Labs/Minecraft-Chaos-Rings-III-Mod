@@ -1,6 +1,6 @@
-package circlecly.chaosrings3mod;
+package kotharlabs.chaosrings3mod;
 
-import circlecly.chaosrings3mod.init.ModItems;
+import kotharlabs.chaosrings3mod.init.ModItems;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod;

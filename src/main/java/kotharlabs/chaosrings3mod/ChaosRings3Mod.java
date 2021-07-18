@@ -1,4 +1,4 @@
-package circlecly.chaosrings3mod;
+package kotharlabs.chaosrings3mod;
 
 
 import net.minecraftforge.fml.common.Mod;

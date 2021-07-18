@@ -1,4 +1,6 @@
 item.cr3.chocolate.name=Chocolate
 item.cr3.white_chocolate.name=White Chocolate
 item.cr3.gourmet_chocolate.name=Gourmet Chocolate
-itemGroup.cr3.cr3_food.name=Chaos Rings 3 Foods
+item.cr3.chain_sword.name=Chain Sword
+itemGroup.cr3_food=Chaos Rings 3 Foods
+itemGroup.cr3_weapons=Chaos Rings 3 Weapons

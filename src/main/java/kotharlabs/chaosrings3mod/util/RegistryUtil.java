@@ -1,6 +1,6 @@
-package circlecly.chaosrings3mod.util;
+package kotharlabs.chaosrings3mod.util;
 
-import circlecly.chaosrings3mod.ChaosRings3Mod;
+import kotharlabs.chaosrings3mod.ChaosRings3Mod;
 import net.minecraft.item.Item;
 
 public class RegistryUtil {
