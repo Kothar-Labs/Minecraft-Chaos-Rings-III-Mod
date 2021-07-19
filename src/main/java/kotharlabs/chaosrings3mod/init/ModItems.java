@@ -34,6 +34,7 @@ public class ModItems {
         addToRefs(new WhiteChocolate());
         addToRefs(new GourmetChocolate());
         addToRefs(new ChainSword());
+        addToRefs(new LaTraviata());
     }
 
 }
