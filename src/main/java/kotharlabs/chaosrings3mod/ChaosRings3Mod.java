@@ -16,7 +16,7 @@ public class ChaosRings3Mod {
     public static final String MODID = "cr3";
     public static final String NAME = "Chaos Rings 3 Mod";
     public static final String VERSION = "0.0.1";
-    public static final String MC_VERSION = "[1.12.2]";
+    public static final String MC_VERSION = "[1.12.x]";
 
     public static final Logger LOGGER = LogManager.getLogger(ChaosRings3Mod.MODID);
 
