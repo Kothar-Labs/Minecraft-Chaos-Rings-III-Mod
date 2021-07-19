@@ -8,6 +8,6 @@ public class RegistryUtil {
     public static Item setItemName(Item i, String itemName)
     {
         return i.setRegistryName(ChaosRings3Mod.MODID, itemName)
-                .setTranslationKey(ChaosRings3Mod.MODID + "." + itemName);
+                .setUnlocalizedName(ChaosRings3Mod.MODID + "." + itemName);
     }
 }
