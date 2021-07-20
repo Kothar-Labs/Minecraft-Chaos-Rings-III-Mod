@@ -31,9 +31,9 @@ public class ModWorldGenCustomStructure implements IWorldGenerator{
                 break;
             case 1:
                 break;
-            case 0:               //建筑名称 生成的时间 随机位 区块X,Z 生成概率(0~100) 在什么方块上面生成 在什么地形生成
+            case 0:
                 generateStructure(SAND_TNT_TRAP, world, random, chunkX, chunkZ,
-                        0.2f, Blocks.GRASS, BiomePlains.class);
+                        0.02f, Blocks.GRASS, BiomePlains.class);
                 break;
             case -1:
         }

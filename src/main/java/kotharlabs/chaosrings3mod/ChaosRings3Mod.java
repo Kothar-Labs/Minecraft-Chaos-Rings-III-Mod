@@ -27,8 +27,8 @@ public class ChaosRings3Mod {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         // This handles ModWorldGen
-        //GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
-        GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructure(), 3);
+        //GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
+        GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructure(), 0);
     }
 
     @EventHandler
