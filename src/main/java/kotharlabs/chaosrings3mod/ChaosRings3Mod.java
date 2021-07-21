@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -29,6 +30,8 @@ public class ChaosRings3Mod {
         // This handles ModWorldGen
         //GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
         GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructure(), 0);
+        RegistrationHandler.registerBiomes();
+        RegistrationHandler.registerDimensions();
     }
 
     @EventHandler
@@ -40,4 +43,11 @@ public class ChaosRings3Mod {
     public void postInit(FMLPostInitializationEvent event) {
 
     }
+
+    @EventHandler
+    public static void serverInit(FMLServerStartingEvent event)
+    {
+        RegistrationHandler.serverRegistries(event);
+    }
+
 }
