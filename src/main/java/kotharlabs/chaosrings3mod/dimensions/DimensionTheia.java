@@ -4,6 +4,7 @@ import kotharlabs.chaosrings3mod.ChaosRings3Mod;
 import kotharlabs.chaosrings3mod.biomes.BiomeTheiaUrban;
 import kotharlabs.chaosrings3mod.init.ModBiomes;
 import kotharlabs.chaosrings3mod.init.ModDimensions;
+import kotharlabs.chaosrings3mod.world_gen.TheiaGenerator;
 import net.minecraft.world.DimensionType;
 import net.minecraft.world.WorldProvider;
 import net.minecraft.world.biome.BiomeProviderSingle;
@@ -18,7 +19,7 @@ public class DimensionTheia extends WorldProvider {
     public DimensionTheia()
     {
         this.biomeProvider = new BiomeProviderSingle(
-                ModBiomes.biomeRefs.get(ChaosRings3Mod.MODID + "_" + BiomeTheiaUrban.NAME)
+                ModBiomes.biomeRefs.get(ChaosRings3Mod.MODID + ":" + BiomeTheiaUrban.NAME)
         );
     }
 
@@ -32,7 +33,8 @@ public class DimensionTheia extends WorldProvider {
     {
         // TODO Chunk Generator of Theia
         // return new ChunkGeneratorTheia();
-        return new ChunkGeneratorFlat(world, world.getSeed(), true, null);
+        // return new ChunkGeneratorFlat(world, world.getSeed(), true, null);
+        return new TheiaGenerator(world);
     }
 
     @Override
